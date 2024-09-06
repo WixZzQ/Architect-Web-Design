@@ -14,19 +14,58 @@
     <title>Architects Website</title>
 </head>
 <body>
-    <nav>
-        <div class="right">
-            <h2>G4 Architects</h2>
-        </div>
-        <div class="left">
-            <div class="links">
-                <a href="#"><i class='bx bx-home' style="padding: 0 0.3rem;"></i>Home</a>
-                <a href="#"><i class='bx bx-grid-alt' style="padding: 0 0.3rem;"></i>About</a>
-                <a href="#"><i class='bx bx-file-blank' style="padding: 0 0.3rem;"></i>Contact Us</a>
-                <a href="#"><i class='bx bx-envelope' style="padding: 0 0.3rem;"></i>Login</a>
+    <div class="navbar bg-base-100">
+        <div class="flex-1">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
             </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a>Item 1</a></li>
+              <li>
+                <a>Parent</a>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </li>
+              <li><a>Item 3</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl">G4 Architechs</a>
         </div>
-    </nav>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li>
+              <details>
+                <summary>Projects</summary>
+                <ul class="p-2">
+                  <li><a>Education Website</a></li>
+                  <li><a>Business Stats Interface</a></li>
+                </ul>
+              </details>
+            </li>
+            <li><a>About Us</a></li>
+          </ul>
+        </div>
+        <div class="">
+          <a class="btn bg-gray-700 hover:text-sm transition-all">Sign Up</a>
+        </div>
+      </div>
     <header>
         <div class="container-1">
             <div class="banner-content">
@@ -60,13 +99,14 @@
     <section>
         <div class="container-3 flex ">
             <div class="top-description-info">
-                <h2 class="text-5xl font-extrabold mt-32 px-44 " style="color: black;"><span style="border-left: 7px solid #52a7f7; padding-left: 1.2rem;">Features,</span><br>
-                    <span style="border-left: 7px solid #52a7f7; padding-left: 1.2rem;">love & enjoy</h2></span>
+                <h2 class="text-5xl font-extrabold mt-32 px-44 " style="color: black;"><span style="border-left: 7px solid #52a7f7; padding-left: 1.2rem;">Features you<br><span style="border-left: 7px solid #52a7f7; padding-left: 1.2rem;">will love & <span style="border-left: 7px solid #52a7f7; padding-left: 1.2rem;">enjoy</span></span></h2>
                 <p class="mt-10 px-44 font-light text-slate-600">There are many variations of passages of Lorem Ipsum available, but the<br>
                      majority have suffered alteration in some form, by injected humour, or<br>
                      randomised words which don't look even</p>
                      <img class="w-3/5 ml-44 mt-7" src="Images/architect.png">
-                     
+                     <div class="experiences">
+                        <h2><span class="text-2xl font-extrabold">10+ Year</span><br><span class="text-3xl font-bold">Experiences</span></h2>
+                     </div>
                     </div>
                      <div class="bottom-description-infos">
                          <div class="description-info-1">
@@ -89,6 +129,35 @@
                              <p class="mt-2 px-44 font-light text-slate-600">There are many variations of passages of Lorem Ipsum<br> 
                                 available, but the majority have suffered alteration in some form, by injected humour, or randomised...........</p>
                          </div>
+        </div>
+    </section>
+    <section>
+        <div class="facts-about">
+            <h2>Some Facts</h2>
+            <p>There are many variations of passages of Lorem Ipsum available, but<br>
+                 the majority have suffered alteration.</p>
+                 <div class="achievements">
+                    <div class="achievement-awards">
+                        <img src="Images/Facts/ribon.png" alt="">
+                        <h2>54</h2>
+                        <p>Award Winnings</p>
+                    </div>
+                    <div class="achievement-projects">
+                        <img src="Images/Facts/projects.png" alt="">
+                        <h2>1458</h2>
+                        <p>Project Finished</p>
+                    </div>
+                    <div class="achievement-awards">
+                        <img src="Images/Facts/ribon.png" alt="">
+                        <h2>590</h2>
+                        <p>Clients Worked</p>
+                    </div>
+                    <div class="achievement-awards">
+                        <img src="Images/Facts/ribon.png" alt="">
+                        <h2>22578</h2>
+                        <p>Email Send</p>
+                    </div>
+                 </div>
         </div>
     </section>
     </main>

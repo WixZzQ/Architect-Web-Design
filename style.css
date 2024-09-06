@@ -136,6 +136,21 @@ footer nav a:hover{
     font-size: 15px;
 }
 
+ .experiences h2{
+    background-color: #3177e6;
+    border-radius: 1rem;
+    border: 30px solid #3177e6;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    position: relative;
+    top: -6rem;
+    left: -5rem;
+    text-align: center;
+    color: white !important;
+}
+
+
+
 @media screen and (max-width:576px) {
 
     nav{
