@@ -14,7 +14,7 @@
     <title>Architects Website</title>
 </head>
 <body>
-    <div class="navbar bg-base-100">
+    <div class="navbar bg-base-300">
         <div class="flex-1">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -132,32 +132,59 @@
         </div>
     </section>
     <section>
-        <div class="facts-about">
-            <h2>Some Facts</h2>
+        <div class="facts-about bg-slate-100">
+            <div class="top-facts-about">
+                <h2 class="font-bold">Some Facts</h2>
             <p>There are many variations of passages of Lorem Ipsum available, but<br>
                  the majority have suffered alteration.</p>
-                 <div class="achievements">
-                    <div class="achievement-awards">
-                        <img src="Images/Facts/ribon.png" alt="">
-                        <h2>54</h2>
-                        <p>Award Winnings</p>
+            </div>
+                 <div class="achievements flex mb-16"> 
+                    <div class="achievement-awards p-6">
+                        <img src="Images/Facts/ribon.png" class="relative left-9 ">
+                        <h2 class="font-extrabold text-black text-2xl">54</h2>
+                        <p class="font-bold text-1xl">Award Winnings</p>
                     </div>
-                    <div class="achievement-projects">
-                        <img src="Images/Facts/projects.png" alt="">
-                        <h2>1458</h2>
-                        <p>Project Finished</p>
+                    <div class="achievement-projects p-6">
+                        <img src="Images/Facts/projects.png" class="relative left-9">
+                        <h2 class="font-extrabold text-black text-2xl">1458</h2>
+                        <p class="font-bold text-1xl" >Project Finished</p>
                     </div>
-                    <div class="achievement-awards">
-                        <img src="Images/Facts/ribon.png" alt="">
-                        <h2>590</h2>
-                        <p>Clients Worked</p>
+                    <div class="achievement-worked p-6">
+                        <img src="Images/Facts/customers.png" class="relative left-8">
+                        <h2 class="font-extrabold text-black text-2xl">590</h2>
+                        <p class="font-bold text-1xl">Clients Worked</p>
                     </div>
-                    <div class="achievement-awards">
-                        <img src="Images/Facts/ribon.png" alt="">
-                        <h2>22578</h2>
-                        <p>Email Send</p>
+                    <div class="achievement-emails p-6 px-10">
+                        <img src="Images/Facts/email.png" class="relative left-4">
+                        <h2 class="font-extrabold text-black text-2xl">22578</h2>
+                        <p class="font-bold text-1xl">Email Send</p>
                     </div>
                  </div>
+        </div>
+    </section>
+    <section>
+        <div class="sponsors">
+            <div class="heading-sponsors text-center mt-32">
+                <h2 class="text-4xl text-black font-extrabold">Our Sponsors</h2>
+                <p class="mt-4">There are many variations of passages of Lorem Ipsum available, but<br>
+                     the majority have suffered alteration.</p>
+                     <div class="lists-sponsors flex justify-center gap-24 mt-10 mb-20">
+                         <div class="logo-sponsor">
+                             <img src="Images/Sponsors/amazon.png" alt="">
+                         </div>
+                         <div class="logo-sponsor">
+                             <img src="Images/Sponsors/figma.png" alt="">
+                         </div>
+                         <div class="logo-sponsor">
+                             <img src="Images/Sponsors/google.png" alt="">
+                         </div>
+                         <div class="logo-sponsor">
+                             <img src="Images/Sponsors/spotify.png" alt="">
+                         </div>
+                         <div class="logo-sponsor">
+                             <img src="Images/Sponsors/telerama.png" alt="">
+                         </div>
+            </div>
         </div>
     </section>
     </main>
@@ -191,7 +218,7 @@
             <div class="join">
               <input
                 type="text"
-                placeholder="username@site.com"
+                placeholder="EnterYour@site.com"
                 class="input input-bordered join-item" />
               <button class="btn btn-primary join-item">Subscribe</button>
             </div>
